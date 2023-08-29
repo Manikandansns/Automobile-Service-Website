@@ -1,0 +1,180 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+}
+header{
+    background-image: url(./images/car\ bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+    height: 60vh;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1%;
+    position: sticky;
+    text-align: center;
+}
+li{
+    margin-top: 1%;
+}
+a{
+    color: rgb(213, 212, 212);
+    text-decoration: none;
+}
+a:hover{
+    color: orange;
+}
+.sign-up{
+    height: 90vh;
+    padding: 6px 20px;
+    background-color: rgb(255, 60, 0);
+    color: white;
+    border-radius: 3px;
+    text-align: center;
+}
+.sign-up:hover{
+    color: white;
+}
+.logo{
+    display: flex;
+    padding-right: 28%;
+    font-size: x-large;
+}
+.fires{
+    color: rgb(255, 119, 0);
+}
+svg{
+    color: white;
+}
+.section-1{
+    display:flex;
+    justify-content: center;
+    margin-top: 8%;
+    color: whitesmoke;
+}
+.container-1{
+    font-size: xxx-large;
+    font-family: 'Orbitron', sans-serif;
+
+}
+.container-2{
+    padding-left: 20%;
+    margin-top: 1%;
+}
+
+.catagories{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    font-size: xx-large;
+    font-weight: 600;
+}
+.bold{
+    color: rgb(255, 149, 0);
+}
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.swiper{
+    width: 90%;
+    height: fit-content;
+}
+
+.swiper-slide img{
+    width: 100%;
+}
+.swiper .swiper-button-prev, .swiper .swiper-button-next{
+    color: #fff;
+}
+.swiper .swiper-pagination-bullet-active{
+    background: #fff;
+}
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(239, 237, 237, 0.489);
+    padding-top: 4%;
+}
+.contact{
+    display: flex;
+}
+footer h4{
+    padding-bottom: 11%;
+}
+footer span p{
+    padding: 5% 0%;
+}
+footer .msg div svg{
+    margin: 10px 7px 5px 0px;
+}
+footer .social div svg{
+    margin: 5px 7px 5px 0px;
+}
+.pad{
+    padding-bottom: 5%;
+}
+pre{
+    margin: 4% 0%;
+}
+.media{
+    color: black;
+    padding: 5% 0%;
+}
+
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    perspective: 1000px;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  .flip-card-back {
+    background-color: #2980b9;
+    color: white;
+    transform: rotateY(180deg);
+  }
